@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C0897B11A02906A004617C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0897B01A02906A004617C3 /* main.m */; };
+		3C0897BD1A02906A004617C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0897BB1A02906A004617C3 /* Main.storyboard */; };
+		3C0897BF1A02906A004617C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0897BE1A02906A004617C3 /* Images.xcassets */; };
+		3C0897C21A02906A004617C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0897C01A02906A004617C3 /* LaunchScreen.xib */; };
+		3C0897CE1A02906A004617C3 /* DiahelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0897CD1A02906A004617C3 /* DiahelperTests.m */; };
+		3C0897EB1A02929B004617C3 /* Diahelper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C0897E91A02929B004617C3 /* Diahelper.xcdatamodeld */; };
+		3C0898241A029B66004617C3 /* DIAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C08980E1A029B66004617C3 /* DIAAppDelegate.m */; };
+		3C0898251A029B66004617C3 /* DIADish.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0898121A029B66004617C3 /* DIADish.m */; };
+		3C0898261A029B66004617C3 /* DIACategoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0898161A029B66004617C3 /* DIACategoryListViewController.m */; };
+		3C0898271A029B66004617C3 /* DIAChooseDishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0898181A029B66004617C3 /* DIAChooseDishViewController.m */; };
+		3C0898281A029B66004617C3 /* DIADishListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C08981A1A029B66004617C3 /* DIADishListViewController.m */; };
+		3C0898291A029B66004617C3 /* DIAHealthLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C08981D1A029B66004617C3 /* DIAHealthLogViewController.m */; };
+		3C08982A1A029B66004617C3 /* DIAMealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0898201A029B66004617C3 /* DIAMealViewController.m */; };
+		3C08982B1A029B66004617C3 /* DIAProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0898231A029B66004617C3 /* DIAProfileViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C0897C81A02906A004617C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C0897A31A029069004617C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C0897AA1A029069004617C3;
+			remoteInfo = Diahelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C0897AB1A029069004617C3 /* Diahelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diahelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0897AF1A02906A004617C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C0897B01A02906A004617C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C0897BC1A02906A004617C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C0897BE1A02906A004617C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C0897C11A02906A004617C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3C0897C71A02906A004617C3 /* DiahelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiahelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0897CC1A02906A004617C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C0897CD1A02906A004617C3 /* DiahelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiahelperTests.m; sourceTree = "<group>"; };
+		3C0897EA1A02929B004617C3 /* Diahelper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Diahelper.xcdatamodel; sourceTree = "<group>"; };
+		3C08980D1A029B66004617C3 /* DIAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIAAppDelegate.h; sourceTree = "<group>"; };
+		3C08980E1A029B66004617C3 /* DIAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIAAppDelegate.m; sourceTree = "<group>"; };
+		3C0898111A029B66004617C3 /* DIADish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIADish.h; sourceTree = "<group>"; };
+		3C0898121A029B66004617C3 /* DIADish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIADish.m; sourceTree = "<group>"; };
+		3C0898151A029B66004617C3 /* DIACategoryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIACategoryListViewController.h; sourceTree = "<group>"; };
+		3C0898161A029B66004617C3 /* DIACategoryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIACategoryListViewController.m; sourceTree = "<group>"; };
+		3C0898171A029B66004617C3 /* DIAChooseDishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIAChooseDishViewController.h; sourceTree = "<group>"; };
+		3C0898181A029B66004617C3 /* DIAChooseDishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIAChooseDishViewController.m; sourceTree = "<group>"; };
+		3C0898191A029B66004617C3 /* DIADishListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIADishListViewController.h; sourceTree = "<group>"; };
+		3C08981A1A029B66004617C3 /* DIADishListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIADishListViewController.m; sourceTree = "<group>"; };
+		3C08981C1A029B66004617C3 /* DIAHealthLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIAHealthLogViewController.h; sourceTree = "<group>"; };
+		3C08981D1A029B66004617C3 /* DIAHealthLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIAHealthLogViewController.m; sourceTree = "<group>"; };
+		3C08981F1A029B66004617C3 /* DIAMealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIAMealViewController.h; sourceTree = "<group>"; };
+		3C0898201A029B66004617C3 /* DIAMealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIAMealViewController.m; sourceTree = "<group>"; };
+		3C0898221A029B66004617C3 /* DIAProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIAProfileViewController.h; sourceTree = "<group>"; };
+		3C0898231A029B66004617C3 /* DIAProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIAProfileViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C0897A81A029069004617C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0897C41A02906A004617C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C0897A21A029069004617C3 = {
+			isa = PBXGroup;
+			children = (
+				3C0897AD1A029069004617C3 /* Diahelper */,
+				3C0897CA1A02906A004617C3 /* DiahelperTests */,
+				3C0897AC1A029069004617C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C0897AC1A029069004617C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C0897AB1A029069004617C3 /* Diahelper.app */,
+				3C0897C71A02906A004617C3 /* DiahelperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C0897AD1A029069004617C3 /* Diahelper */ = {
+			isa = PBXGroup;
+			children = (
+				3C0897E91A02929B004617C3 /* Diahelper.xcdatamodeld */,
+				3C08980C1A029B66004617C3 /* Sources */,
+				3C08980B1A029B24004617C3 /* Resources */,
+				3C0897AE1A02906A004617C3 /* Supporting Files */,
+			);
+			path = Diahelper;
+			sourceTree = "<group>";
+		};
+		3C0897AE1A02906A004617C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C0897AF1A02906A004617C3 /* Info.plist */,
+				3C0897B01A02906A004617C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C0897CA1A02906A004617C3 /* DiahelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C0897CD1A02906A004617C3 /* DiahelperTests.m */,
+				3C0897CB1A02906A004617C3 /* Supporting Files */,
+			);
+			path = DiahelperTests;
+			sourceTree = "<group>";
+		};
+		3C0897CB1A02906A004617C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C0897CC1A02906A004617C3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C08980B1A029B24004617C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C0897BB1A02906A004617C3 /* Main.storyboard */,
+				3C0897BE1A02906A004617C3 /* Images.xcassets */,
+				3C0897C01A02906A004617C3 /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3C08980C1A029B66004617C3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3C08980D1A029B66004617C3 /* DIAAppDelegate.h */,
+				3C08980E1A029B66004617C3 /* DIAAppDelegate.m */,
+				3C08980F1A029B66004617C3 /* Model */,
+				3C0898131A029B66004617C3 /* Screens */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		3C08980F1A029B66004617C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C0898101A029B66004617C3 /* Temporary */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C0898101A029B66004617C3 /* Temporary */ = {
+			isa = PBXGroup;
+			children = (
+				3C0898111A029B66004617C3 /* DIADish.h */,
+				3C0898121A029B66004617C3 /* DIADish.m */,
+			);
+			path = Temporary;
+			sourceTree = "<group>";
+		};
+		3C0898131A029B66004617C3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3C0898141A029B66004617C3 /* ChooseDish */,
+				3C08981B1A029B66004617C3 /* HealthLog */,
+				3C08981E1A029B66004617C3 /* Meal */,
+				3C0898211A029B66004617C3 /* Profile */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		3C0898141A029B66004617C3 /* ChooseDish */ = {
+			isa = PBXGroup;
+			children = (
+				3C0898151A029B66004617C3 /* DIACategoryListViewController.h */,
+				3C0898161A029B66004617C3 /* DIACategoryListViewController.m */,
+				3C0898191A029B66004617C3 /* DIADishListViewController.h */,
+				3C08981A1A029B66004617C3 /* DIADishListViewController.m */,
+				3C0898171A029B66004617C3 /* DIAChooseDishViewController.h */,
+				3C0898181A029B66004617C3 /* DIAChooseDishViewController.m */,
+			);
+			path = ChooseDish;
+			sourceTree = "<group>";
+		};
+		3C08981B1A029B66004617C3 /* HealthLog */ = {
+			isa = PBXGroup;
+			children = (
+				3C08981C1A029B66004617C3 /* DIAHealthLogViewController.h */,
+				3C08981D1A029B66004617C3 /* DIAHealthLogViewController.m */,
+			);
+			path = HealthLog;
+			sourceTree = "<group>";
+		};
+		3C08981E1A029B66004617C3 /* Meal */ = {
+			isa = PBXGroup;
+			children = (
+				3C08981F1A029B66004617C3 /* DIAMealViewController.h */,
+				3C0898201A029B66004617C3 /* DIAMealViewController.m */,
+			);
+			path = Meal;
+			sourceTree = "<group>";
+		};
+		3C0898211A029B66004617C3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3C0898221A029B66004617C3 /* DIAProfileViewController.h */,
+				3C0898231A029B66004617C3 /* DIAProfileViewController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C0897AA1A029069004617C3 /* Diahelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0897D11A02906A004617C3 /* Build configuration list for PBXNativeTarget "Diahelper" */;
+			buildPhases = (
+				3C0897A71A029069004617C3 /* Sources */,
+				3C0897A81A029069004617C3 /* Frameworks */,
+				3C0897A91A029069004617C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diahelper;
+			productName = Diahelper;
+			productReference = 3C0897AB1A029069004617C3 /* Diahelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C0897C61A02906A004617C3 /* DiahelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0897D41A02906A004617C3 /* Build configuration list for PBXNativeTarget "DiahelperTests" */;
+			buildPhases = (
+				3C0897C31A02906A004617C3 /* Sources */,
+				3C0897C41A02906A004617C3 /* Frameworks */,
+				3C0897C51A02906A004617C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C0897C91A02906A004617C3 /* PBXTargetDependency */,
+			);
+			name = DiahelperTests;
+			productName = DiahelperTests;
+			productReference = 3C0897C71A02906A004617C3 /* DiahelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C0897A31A029069004617C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DIA;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Diahelper;
+				TargetAttributes = {
+					3C0897AA1A029069004617C3 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					3C0897C61A02906A004617C3 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 3C0897AA1A029069004617C3;
+					};
+				};
+			};
+			buildConfigurationList = 3C0897A61A029069004617C3 /* Build configuration list for PBXProject "Diahelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C0897A21A029069004617C3;
+			productRefGroup = 3C0897AC1A029069004617C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C0897AA1A029069004617C3 /* Diahelper */,
+				3C0897C61A02906A004617C3 /* DiahelperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C0897A91A029069004617C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0897BD1A02906A004617C3 /* Main.storyboard in Resources */,
+				3C0897C21A02906A004617C3 /* LaunchScreen.xib in Resources */,
+				3C0897BF1A02906A004617C3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0897C51A02906A004617C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C0897A71A029069004617C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0898241A029B66004617C3 /* DIAAppDelegate.m in Sources */,
+				3C0897B11A02906A004617C3 /* main.m in Sources */,
+				3C0898271A029B66004617C3 /* DIAChooseDishViewController.m in Sources */,
+				3C08982B1A029B66004617C3 /* DIAProfileViewController.m in Sources */,
+				3C0898251A029B66004617C3 /* DIADish.m in Sources */,
+				3C0898291A029B66004617C3 /* DIAHealthLogViewController.m in Sources */,
+				3C0898281A029B66004617C3 /* DIADishListViewController.m in Sources */,
+				3C0898261A029B66004617C3 /* DIACategoryListViewController.m in Sources */,
+				3C08982A1A029B66004617C3 /* DIAMealViewController.m in Sources */,
+				3C0897EB1A02929B004617C3 /* Diahelper.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0897C31A02906A004617C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0897CE1A02906A004617C3 /* DiahelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C0897C91A02906A004617C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C0897AA1A029069004617C3 /* Diahelper */;
+			targetProxy = 3C0897C81A02906A004617C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C0897BB1A02906A004617C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C0897BC1A02906A004617C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C0897C01A02906A004617C3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C0897C11A02906A004617C3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C0897CF1A02906A004617C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C0897D01A02906A004617C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C0897D21A02906A004617C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Diahelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C0897D31A02906A004617C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Diahelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C0897D51A02906A004617C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DiahelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diahelper.app/Diahelper";
+			};
+			name = Debug;
+		};
+		3C0897D61A02906A004617C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DiahelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diahelper.app/Diahelper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C0897A61A029069004617C3 /* Build configuration list for PBXProject "Diahelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0897CF1A02906A004617C3 /* Debug */,
+				3C0897D01A02906A004617C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C0897D11A02906A004617C3 /* Build configuration list for PBXNativeTarget "Diahelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0897D21A02906A004617C3 /* Debug */,
+				3C0897D31A02906A004617C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C0897D41A02906A004617C3 /* Build configuration list for PBXNativeTarget "DiahelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0897D51A02906A004617C3 /* Debug */,
+				3C0897D61A02906A004617C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C0897E91A02929B004617C3 /* Diahelper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C0897EA1A02929B004617C3 /* Diahelper.xcdatamodel */,
+			);
+			currentVersion = 3C0897EA1A02929B004617C3 /* Diahelper.xcdatamodel */;
+			path = Diahelper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C0897A31A029069004617C3 /* Project object */;
+}
