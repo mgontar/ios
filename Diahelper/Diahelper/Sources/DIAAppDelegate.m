@@ -6,7 +6,7 @@
 //
 
 #import "DIAAppDelegate.h"
-
+#import "DIACoreDataPlayground.h"
 @interface DIAAppDelegate ()
 
 @end
@@ -15,6 +15,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    DIACoreDataPlayground * pg = [DIACoreDataPlayground new];
+    [pg howToUse];
     // Override point for customization after application launch.
     return YES;
 }

@@ -21,6 +21,16 @@
 		3C0898291A029B66004617C3 /* DIAHealthLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C08981D1A029B66004617C3 /* DIAHealthLogViewController.m */; };
 		3C08982A1A029B66004617C3 /* DIAMealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0898201A029B66004617C3 /* DIAMealViewController.m */; };
 		3C08982B1A029B66004617C3 /* DIAProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0898231A029B66004617C3 /* DIAProfileViewController.m */; };
+		71AE26781A05237700E65102 /* DIACoreDataPlayground.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AE26661A05237700E65102 /* DIACoreDataPlayground.m */; };
+		71AE26791A05237700E65102 /* CoreDataGateway+Requests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AE26691A05237700E65102 /* CoreDataGateway+Requests.m */; };
+		71AE267A1A05237700E65102 /* CoreDataGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AE266B1A05237700E65102 /* CoreDataGateway.m */; };
+		71AE267B1A05237700E65102 /* AbstractEntityGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AE266E1A05237700E65102 /* AbstractEntityGateway.m */; };
+		71AE267C1A05237700E65102 /* DIADishGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AE26711A05237700E65102 /* DIADishGateway.m */; };
+		71AE267D1A05237700E65102 /* DIAFoodCategoryGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AE26741A05237700E65102 /* DIAFoodCategoryGateway.m */; };
+		71AE267E1A05237700E65102 /* DIAProductGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AE26761A05237700E65102 /* DIAProductGateway.m */; };
+		71AE26821A05255100E65102 /* DIADishCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AE26811A05255100E65102 /* DIADishCD.m */; };
+		71AE26851A05255200E65102 /* DIAFoodCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AE26841A05255200E65102 /* DIAFoodCategory.m */; };
+		71AE26881A05255200E65102 /* DIAProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AE26871A05255200E65102 /* DIAProduct.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +70,30 @@
 		3C0898201A029B66004617C3 /* DIAMealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIAMealViewController.m; sourceTree = "<group>"; };
 		3C0898221A029B66004617C3 /* DIAProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIAProfileViewController.h; sourceTree = "<group>"; };
 		3C0898231A029B66004617C3 /* DIAProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIAProfileViewController.m; sourceTree = "<group>"; };
+		71AE26651A05237700E65102 /* DIACoreDataPlayground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIACoreDataPlayground.h; sourceTree = "<group>"; };
+		71AE26661A05237700E65102 /* DIACoreDataPlayground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIACoreDataPlayground.m; sourceTree = "<group>"; };
+		71AE26681A05237700E65102 /* CoreDataGateway+Requests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreDataGateway+Requests.h"; sourceTree = "<group>"; };
+		71AE26691A05237700E65102 /* CoreDataGateway+Requests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CoreDataGateway+Requests.m"; sourceTree = "<group>"; };
+		71AE266A1A05237700E65102 /* CoreDataGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataGateway.h; sourceTree = "<group>"; };
+		71AE266B1A05237700E65102 /* CoreDataGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataGateway.m; sourceTree = "<group>"; };
+		71AE266D1A05237700E65102 /* AbstractEntityGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractEntityGateway.h; sourceTree = "<group>"; };
+		71AE266E1A05237700E65102 /* AbstractEntityGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractEntityGateway.m; sourceTree = "<group>"; };
+		71AE266F1A05237700E65102 /* AbstractEntityGateway_Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractEntityGateway_Protected.h; sourceTree = "<group>"; };
+		71AE26701A05237700E65102 /* DIADishGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIADishGateway.h; sourceTree = "<group>"; };
+		71AE26711A05237700E65102 /* DIADishGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIADishGateway.m; sourceTree = "<group>"; };
+		71AE26721A05237700E65102 /* DIAEntityGateways.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIAEntityGateways.h; sourceTree = "<group>"; };
+		71AE26731A05237700E65102 /* DIAFoodCategoryGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIAFoodCategoryGateway.h; sourceTree = "<group>"; };
+		71AE26741A05237700E65102 /* DIAFoodCategoryGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIAFoodCategoryGateway.m; sourceTree = "<group>"; };
+		71AE26751A05237700E65102 /* DIAProductGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIAProductGateway.h; sourceTree = "<group>"; };
+		71AE26761A05237700E65102 /* DIAProductGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIAProductGateway.m; sourceTree = "<group>"; };
+		71AE26771A05237700E65102 /* EntityGatewayProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityGatewayProtocol.h; sourceTree = "<group>"; };
+		71AE26801A05255100E65102 /* DIADishCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIADishCD.h; sourceTree = "<group>"; };
+		71AE26811A05255100E65102 /* DIADishCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIADishCD.m; sourceTree = "<group>"; };
+		71AE26831A05255200E65102 /* DIAFoodCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIAFoodCategory.h; sourceTree = "<group>"; };
+		71AE26841A05255200E65102 /* DIAFoodCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIAFoodCategory.m; sourceTree = "<group>"; };
+		71AE26861A05255200E65102 /* DIAProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIAProduct.h; sourceTree = "<group>"; };
+		71AE26871A05255200E65102 /* DIAProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIAProduct.m; sourceTree = "<group>"; };
+		71AE26891A05257C00E65102 /* CoreDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +182,7 @@
 		3C08980C1A029B66004617C3 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				71AE26641A05237700E65102 /* Core */,
 				3C08980D1A029B66004617C3 /* DIAAppDelegate.h */,
 				3C08980E1A029B66004617C3 /* DIAAppDelegate.m */,
 				3C08980F1A029B66004617C3 /* Model */,
@@ -159,6 +194,7 @@
 		3C08980F1A029B66004617C3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				71AE267F1A05239F00E65102 /* CoreData */,
 				3C0898101A029B66004617C3 /* Temporary */,
 			);
 			path = Model;
@@ -222,6 +258,60 @@
 				3C0898231A029B66004617C3 /* DIAProfileViewController.m */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		71AE26641A05237700E65102 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				71AE26651A05237700E65102 /* DIACoreDataPlayground.h */,
+				71AE26661A05237700E65102 /* DIACoreDataPlayground.m */,
+				71AE26671A05237700E65102 /* Implementation */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		71AE26671A05237700E65102 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				71AE26681A05237700E65102 /* CoreDataGateway+Requests.h */,
+				71AE26691A05237700E65102 /* CoreDataGateway+Requests.m */,
+				71AE266A1A05237700E65102 /* CoreDataGateway.h */,
+				71AE266B1A05237700E65102 /* CoreDataGateway.m */,
+				71AE266C1A05237700E65102 /* EntityGateway */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		71AE266C1A05237700E65102 /* EntityGateway */ = {
+			isa = PBXGroup;
+			children = (
+				71AE266D1A05237700E65102 /* AbstractEntityGateway.h */,
+				71AE266E1A05237700E65102 /* AbstractEntityGateway.m */,
+				71AE266F1A05237700E65102 /* AbstractEntityGateway_Protected.h */,
+				71AE26701A05237700E65102 /* DIADishGateway.h */,
+				71AE26711A05237700E65102 /* DIADishGateway.m */,
+				71AE26721A05237700E65102 /* DIAEntityGateways.h */,
+				71AE26731A05237700E65102 /* DIAFoodCategoryGateway.h */,
+				71AE26741A05237700E65102 /* DIAFoodCategoryGateway.m */,
+				71AE26751A05237700E65102 /* DIAProductGateway.h */,
+				71AE26761A05237700E65102 /* DIAProductGateway.m */,
+				71AE26771A05237700E65102 /* EntityGatewayProtocol.h */,
+			);
+			path = EntityGateway;
+			sourceTree = "<group>";
+		};
+		71AE267F1A05239F00E65102 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				71AE26891A05257C00E65102 /* CoreDataModel.h */,
+				71AE26861A05255200E65102 /* DIAProduct.h */,
+				71AE26871A05255200E65102 /* DIAProduct.m */,
+				71AE26831A05255200E65102 /* DIAFoodCategory.h */,
+				71AE26841A05255200E65102 /* DIAFoodCategory.m */,
+				71AE26801A05255100E65102 /* DIADishCD.h */,
+				71AE26811A05255100E65102 /* DIADishCD.m */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,13 +416,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C0898241A029B66004617C3 /* DIAAppDelegate.m in Sources */,
+				71AE26851A05255200E65102 /* DIAFoodCategory.m in Sources */,
+				71AE26881A05255200E65102 /* DIAProduct.m in Sources */,
+				71AE26821A05255100E65102 /* DIADishCD.m in Sources */,
+				71AE26791A05237700E65102 /* CoreDataGateway+Requests.m in Sources */,
+				71AE267C1A05237700E65102 /* DIADishGateway.m in Sources */,
 				3C0897B11A02906A004617C3 /* main.m in Sources */,
 				3C0898271A029B66004617C3 /* DIAChooseDishViewController.m in Sources */,
 				3C08982B1A029B66004617C3 /* DIAProfileViewController.m in Sources */,
 				3C0898251A029B66004617C3 /* DIADish.m in Sources */,
 				3C0898291A029B66004617C3 /* DIAHealthLogViewController.m in Sources */,
+				71AE267E1A05237700E65102 /* DIAProductGateway.m in Sources */,
 				3C0898281A029B66004617C3 /* DIADishListViewController.m in Sources */,
+				71AE267D1A05237700E65102 /* DIAFoodCategoryGateway.m in Sources */,
 				3C0898261A029B66004617C3 /* DIACategoryListViewController.m in Sources */,
+				71AE26781A05237700E65102 /* DIACoreDataPlayground.m in Sources */,
+				71AE267A1A05237700E65102 /* CoreDataGateway.m in Sources */,
+				71AE267B1A05237700E65102 /* AbstractEntityGateway.m in Sources */,
 				3C08982A1A029B66004617C3 /* DIAMealViewController.m in Sources */,
 				3C0897EB1A02929B004617C3 /* Diahelper.xcdatamodeld in Sources */,
 			);
@@ -529,6 +629,7 @@
 				3C0897D31A02906A004617C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C0897D41A02906A004617C3 /* Build configuration list for PBXNativeTarget "DiahelperTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +638,7 @@
 				3C0897D61A02906A004617C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

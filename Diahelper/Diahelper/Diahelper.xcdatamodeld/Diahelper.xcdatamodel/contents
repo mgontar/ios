@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14A389" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+    <entity name="DIADishCD" representedClassName="DIADishCD" syncable="YES">
+        <attribute name="breadUnits" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DIAFoodCategory" inverseName="dishes" inverseEntity="DIAFoodCategory" syncable="YES"/>
+        <relationship name="products" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DIAProduct" inverseName="dishes" inverseEntity="DIAProduct" syncable="YES"/>
+    </entity>
+    <entity name="DIAFoodCategory" representedClassName="DIAFoodCategory" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="dishes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DIADishCD" inverseName="category" inverseEntity="DIADishCD" syncable="YES"/>
+    </entity>
+    <entity name="DIAProduct" representedClassName="DIAProduct" syncable="YES">
+        <attribute name="breadUnits" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="dishes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DIADishCD" inverseName="products" inverseEntity="DIADishCD" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DIADishCD" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="DIAFoodCategory" positionX="-29" positionY="-153" width="128" height="73"/>
+        <element name="DIAProduct" positionX="-45" positionY="155" width="128" height="88"/>
+    </elements>
 </model>
